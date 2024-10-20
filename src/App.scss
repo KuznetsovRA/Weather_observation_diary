@@ -1,0 +1,44 @@
+.App {
+	max-width: 1200px;
+	padding: 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	background-color: #2c2c2c;
+	transition: box-shadow 0.3s ease;
+	margin: 20px auto;
+	&:hover {
+		box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+	}
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+
+	h1 {
+		font-size: 24px;
+		color: #ffffff;
+	}
+
+	button {
+		background-color: #007adf;
+		color: #fff;
+		border: none;
+		border-radius: 4px;
+		padding: 10px 20px;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+
+		&:hover {
+			background-color: #005bb5;
+		}
+	}
+}
+
+.table-container {
+	width: 100%;
+	overflow-x: auto;
+}
+

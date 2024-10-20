@@ -1,0 +1,91 @@
+.custom-dialog {
+	background-color: #2c2c2c;
+	color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+	padding: 20px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80vw;
+	max-width: 500px;
+	max-height: 90vh;
+	overflow-y: auto;
+	min-width: 300px;
+
+	.submit-btn {
+		background-color: #66afe9;
+		border: none;
+		padding: 10px 20px;
+		color: white;
+		font-weight: bold;
+		text-transform: uppercase;
+		border-radius: 5px;
+		transition: background-color 0.3s ease;
+		width: 100%;
+
+		&:hover {
+			background-color: #559fda;
+		}
+	}
+}
+
+.form-field {
+	margin-bottom: 20px;
+
+	label {
+		display: block;
+		margin-bottom: 8px;
+		color: #bbb;
+	}
+
+	input,
+	.p-dropdown {
+		width: 100%;
+		padding: 10px;
+		border-radius: 5px;
+		background-color: #2c2c2c;
+		color: #ffffff;
+		border: 1px solid #555;
+		transition: border 0.3s;
+
+		&:focus {
+			border-color: #66afe9;
+		}
+	}
+
+	.error-text {
+		display: block;
+		min-height: 20px;
+		color: #ff4d4f;
+		margin-top: 5px;
+		font-size: 0.875rem;
+	}
+
+	.error {
+		border-color: #ff4d4f !important;
+	}
+}
+
+
+.p-dialog-header {
+	color: #ffffff;
+	border-bottom: 1px solid #444;
+}
+
+.p-dialog-content {
+	padding: 15px;
+}
+
+.p-dialog-footer {
+	background-color: #1e1e1e;
+	padding: 10px;
+	border-top: 1px solid #444;
+}
+
+
+.p-dropdown-items-wrapper{
+	background-color: #191919;
+	border-radius: 5px;
+}
